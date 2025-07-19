@@ -34,3 +34,10 @@ for _ in range(100):
 
 # 输出词向量
 print({w: W1[word2idx[w]] for w in vocab})
+
+'''
+1.python的语法，能读懂但不熟悉
+2.Skip‑gram机制和CBOW具体实现机制和两者优劣对比
+3.每个词的embedding表示是不是维度越高越好
+4.为什么进行多次训练得到的embedding表示不完全相同
+'''
