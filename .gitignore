@@ -1,0 +1,53 @@
+# Python相关
+*.pyc
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# 模型文件
+*.model
+*.bin
+*.pkl
+*.h5
+*.weights
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 数据文件夹
+data/
+datasets/
+logs/
+checkpoints/
+
+# 临时文件夹
+temp/
+tmp/
+cache/
+
+# 输出文件夹
+output/
+results/
+models/
+
+# 大文件 - PDFs和ZIPs
+*.pdf
+*.zip
+Hands-On Large Language Models.pdf
+Hands-On-Large-Language-Models-main.zip
+How_Transformer_LLMs_Work-main.zip
